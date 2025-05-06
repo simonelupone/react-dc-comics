@@ -23,8 +23,28 @@ const Main = () => {
                 <div className="w-7xl mx-12">
                     <div className="cta py-12 flex flex-wrap gap-20 text-white uppercase font font-semibold">
                         <figure className="flex gap-4 items-center">
-                            <img src="../src/assets/img/buy-comics-digital-comics.png" alt=""/>
+                            <img className="h-8" src="../src/assets/img/buy-comics-digital-comics.png" alt=""/>
                             <figcaption><span className="uppercase">Digital Contents</span></figcaption>
+                        </figure>
+
+                        <figure className="flex gap-4 items-center">
+                            <img className="h-8" src="../src/assets/img/buy-comics-merchandise.png" alt=""/>
+                            <figcaption><span className="uppercase">DC Merchandise</span></figcaption>
+                        </figure>
+
+                        <figure className="flex gap-4 items-center">
+                            <img className="h-8" src="../src/assets/img/buy-comics-subscriptions.png" alt=""/>
+                            <figcaption><span className="uppercase">Subscription</span></figcaption>
+                        </figure>
+
+                        <figure className="flex gap-4 items-center">
+                            <img className="h-8" src="../src/assets/img/buy-comics-shop-locator.png" alt=""/>
+                            <figcaption><span className="uppercase">Comic Shop Locator</span></figcaption>
+                        </figure>
+
+                        <figure className="flex gap-4 items-center">
+                            <img className="h-8" src="../src/assets/img/buy-dc-power-visa.svg" alt=""/>
+                            <figcaption><span className="uppercase">DC Power Visa</span></figcaption>
                         </figure>
 
                         {/* altre figure*/}
