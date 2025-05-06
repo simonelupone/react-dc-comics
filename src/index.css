@@ -23,6 +23,9 @@ header nav ul li a {
 
 .jumbotron {
     background-image: url("../src/assets/img/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center;*/
 }
 
 footer {

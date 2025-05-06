@@ -26,7 +26,7 @@ const Header = () => {
                 </div>
             </div>
             
-            <div className="jumbotron w-full h-100"></div>
+            <div className="jumbotron w-full h-140"></div>
         </header>
     )
 }
