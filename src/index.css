@@ -21,7 +21,16 @@ header nav ul li a {
     padding: 10px;
 }
 
-/*header nav ul li:hover {*/
-/*    color: #0282f9;*/
-/*    border-bottom: 2px solid #0282f9;*/
-/*}*/
+footer {
+    background-image: url("./assets/img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-logo {
+    background-image: url('./assets/img/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
