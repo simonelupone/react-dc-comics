@@ -21,6 +21,10 @@ header nav ul li a {
     padding: 10px;
 }
 
+.jumbotron {
+    background-image: url("../src/assets/img/jumbotron.jpg");
+}
+
 footer {
     background-image: url("./assets/img/footer-bg.jpg");
     background-repeat: no-repeat;
