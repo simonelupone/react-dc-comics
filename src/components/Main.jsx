@@ -1,10 +1,20 @@
+import ComicsList from "./ComicsList.jsx";
+
 const Main = () => {
     return (
         <main className="bg-black">
             <div className="w-full flex justify-center">
                 <div className="w-7xl mx-12 my-6">
-                    <div className="h-36 py-8">
-                        <h1 className="text-white text-3xl">&rarr; Content goes here &larr;</h1>
+                    <div className="py-2">
+                        <div
+                            className="max-w-fit py-4 px-8 relative -top-16 flex justify-center items-center bg-blue-500">
+                            <span className="text-xl font-bold uppercase text-white">Current series</span>
+                        </div>
+
+                        <div className="">
+                            <ComicsList/>
+                        </div>
+
                     </div>
                 </div>
             </div>
