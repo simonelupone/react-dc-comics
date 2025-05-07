@@ -159,14 +159,9 @@ const ComicsList = () => {
 
     return (
         <div className="flex flex-wrap gap-12 text-white">
-            <ComicCard src={comics[1].thumb} title={comics[1].series}/>
-            <ComicCard src={comics[2].thumb} title={comics[2].series}/>
-            <ComicCard src={comics[3].thumb} title={comics[3].series}/>
-            <ComicCard src={comics[5].thumb} title={comics[5].series}/>
-            <ComicCard src={comics[6].thumb} title={comics[6].series}/>
-            <ComicCard src={comics[7].thumb} title={comics[7].series}/>
-            <ComicCard src={comics[8].thumb} title={comics[8].series}/>
-            <ComicCard src={comics[9].thumb} title={comics[9].series}/>
+            {comics.map((comic) => (
+                <ComicCard key={`comic-${comic.id}`} src={comic.thumb} title={comic.series} />
+            ))}
         </div>
     )
 }
